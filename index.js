@@ -2,7 +2,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv'); // Importa dotenv para cargar las variables de entorno
-const portfolioRoutes = require('./routes/portfolioRoutes');
+const portfolioRoutes = require('./src/routes/portfolioRoutes');
 
 // Carga las variables de entorno desde el archivo .env
 dotenv.config();
